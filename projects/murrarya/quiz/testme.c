@@ -5,14 +5,19 @@
 
 char inputChar()
 {
-    // TODO: rewrite this function
-    return ' ';
+    char* chars = "[({ ax})]";
+    return chars[rand() % 9];
 }
 
 char *inputString()
 {
-    // TODO: rewrite this function
-    return "";
+    char word[6];
+    word[5] = '\0'; // string will cause a segfault without null terminator
+    for (int i = 0; i < 5; i++) {
+        // insert a random ASCII lowercase letter
+        word[i] = (rand() % 26) + 'a';
+    }
+    return word;
 }
 
 void testme()
