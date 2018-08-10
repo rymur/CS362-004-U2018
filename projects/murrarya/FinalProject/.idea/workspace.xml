@@ -14,8 +14,8 @@
       <file leaf-file-name="UrlValidatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/URLValidatorInCorrect/test/UrlValidatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="774">
+              <caret line="82" column="65" lean-forward="true" selection-start-line="82" selection-start-column="65" selection-end-line="82" selection-end-column="65" />
               <folding>
                 <element signature="e#524#525#0" expanded="true" />
                 <element signature="e#552#553#0" expanded="true" />
@@ -27,8 +27,8 @@
       <file leaf-file-name="UrlValidator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URLValidatorInCorrect/src/UrlValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6069">
-              <caret line="392" column="61" selection-start-line="392" selection-start-column="61" selection-end-line="392" selection-end-column="61" />
+            <state>
+              <caret line="391" column="39" lean-forward="true" selection-start-line="391" selection-start-column="39" selection-end-line="391" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -97,6 +97,17 @@
             <path>
               <item name="FinalProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="FinalProject" type="462c0819:PsiDirectoryNode" />
+              <item name="URLValidatorCorrect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProject" type="462c0819:PsiDirectoryNode" />
+              <item name="URLValidatorCorrect" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FinalProject" type="462c0819:PsiDirectoryNode" />
               <item name="URLValidatorInCorrect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -156,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UrlValidatorTest">
+  <component name="RunManager" selected="JUnit.UrlValidatorTest.testIsValid">
     <configuration name="UrlValidatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UrlValidatorTest" />
       <module name="FinalProject" />
@@ -244,8 +255,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UrlValidatorTest" />
         <item itemvalue="JUnit.UrlValidatorTest.testIsValid" />
+        <item itemvalue="Application.UrlValidatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +276,7 @@
       <workItem from="1533817917843" duration="2158000" />
       <workItem from="1533824248784" duration="6968000" />
       <workItem from="1533843632276" duration="730000" />
-      <workItem from="1533903251013" duration="613000" />
+      <workItem from="1533903251013" duration="7157000" />
     </task>
     <servers />
   </component>
@@ -276,9 +287,15 @@
     <history-entry file="UrlValidatorTest_testIsValid - 2018.08.09 at 14h 33m 47s.xml">
       <configuration name="UrlValidatorTest.testIsValid" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UrlValidatorTest_testIsValid - 2018.08.10 at 15h 13m 08s.xml">
+      <configuration name="UrlValidatorTest.testIsValid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UrlValidatorTest_testIsValid - 2018.08.10 at 15h 17m 01s.xml">
+      <configuration name="UrlValidatorTest.testIsValid" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20219000" />
+    <option name="totallyTimeSpent" value="26763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2923" y="-1087" width="1550" height="838" extended-state="6" />
@@ -286,6 +303,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3298969" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -312,7 +330,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3298969" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,8 +538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/URLValidatorCorrect/test/UrlValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2329">
-          <caret line="154" column="13" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
+        <state relative-caret-position="297">
+          <caret line="105" column="16" lean-forward="true" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
           <folding>
             <element signature="e#0#12207#0" expanded="true" />
           </folding>
@@ -531,8 +548,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/URLValidatorInCorrect/src/UrlValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6069">
-          <caret line="392" column="61" selection-start-line="392" selection-start-column="61" selection-end-line="392" selection-end-column="61" />
+        <state>
+          <caret line="391" column="39" lean-forward="true" selection-start-line="391" selection-start-column="39" selection-end-line="391" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -543,10 +560,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit.jar!/junit/framework/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/URLValidatorInCorrect/test/UrlValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="774">
+          <caret line="82" column="65" lean-forward="true" selection-start-line="82" selection-start-column="65" selection-end-line="82" selection-end-column="65" />
           <folding>
             <element signature="e#524#525#0" expanded="true" />
             <element signature="e#552#553#0" expanded="true" />
