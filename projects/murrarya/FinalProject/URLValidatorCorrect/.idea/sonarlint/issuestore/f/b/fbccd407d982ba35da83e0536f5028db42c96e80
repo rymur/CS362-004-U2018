@@ -1,0 +1,11 @@
+
+Lsquid:S1066¼"/Merge this if statement with the enclosing one.(ïÖ£Ñýÿÿÿÿ
+qsquid:S2293–"YReplace the type specification in this constructor call with the diamond operator ("<>").(í›÷ò
+Ysquid:S1126Ð"AReplace this if-then-else statement by a single return statement.(“æšù
+^squid:S1126ê"AReplace this if-then-else statement by a single return statement.(€ÿáÒúÿÿÿÿ
+Ysquid:S1126®"AReplace this if-then-else statement by a single return statement.(êûìâ
+Ysquid:S1126Ï"AReplace this if-then-else statement by a single return statement.(¢íÇ¤
+Jsquid:S1135‰"2Complete the task associated to this TODO comment.(¾”àÝ
+Jsquid:S1135å"2Complete the task associated to this TODO comment.(ÖßˆØ
+1squid:S1220""Move this file to a named package.
+osquid:S3776û"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Õ»¼©üÿÿÿÿ
