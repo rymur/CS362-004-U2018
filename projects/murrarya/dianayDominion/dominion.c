@@ -682,7 +682,7 @@ int i;
 
 //Bug: adjusted for loop
 //	for (i = 0; i < 3; i++)
-for(i=0;i<4;i++)
+for(i=0;i<3;i++)
 	{
 		drawCard(currentPlayer, state);
 	}
