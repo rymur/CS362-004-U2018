@@ -21,19 +21,54 @@ public class UrlValidatorTest extends TestCase {
    public void testManualTest()
    {
 //You can use this function to implement your manual testing	   
-	   
+	   UrlValidator urlValidator = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+	   assertFalse(urlValidator.isValid("htt.google"));
+	   assertFalse(urlValidator.isValid("ftp.google"));
+	   assertTrue(urlValidator.isValid("http://www.google.com/"));
+	   assertFalse(urlValidator.isValid("www.turtle.com/"));
+	   assertTrue(urlValidator.isValid("http://www.dog.com/"));
+	   //assertTrue(urlValidator.isValid("https://www.dog.com/")); //Does not like https, causes program to crash
+	   //assertTrue(urlValidator.isValid("ftp://ftp.dog.com"));Does not like format, causes program to crash
+	   //assertTrue(urlValidator.isValid("http://www.dog.com:98"));Does not like format with port number, causes program to crash
+	   assertFalse(urlValidator.isValid("ftp.kibble.com"));
+	   //assertTrue(urlValidator.isValid(  "https://www.facebook.com/"));//Does not like https, causes program to crash
+	   assertFalse(urlValidator.isValid(""));
+	   assertTrue(urlValidator.isValid("http://www.dog.com/test"));
+	   assertTrue(urlValidator.isValid("http://www.dog.com/test?a=bee"));
+	   //assertTrue(urlValidator.isValid("http://www.example.com:8080/path/"));Does not like format, causes program to crash
    }
    
    
    public void testYourFirstPartition()
    {
 	 //You can use this function to implement your First Partition testing	   
-
+	 //You can use this function to implement your First Partition testing	   
+	   UrlValidator urlValidator = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+	   String []valid = {"http://www.dog.com/", "http://www.cat.com/", "http://www.cowsonfarm.com", "http://www.chipmunks.com"
+	   };
+	   boolean result; 
+	   for (int i =0; i< valid.length; i++) 
+	   {
+		   result = urlValidator.isValid(valid[i]);
+		   System.out.println("Valid" + " " + valid[i] + " " + result);
+		   //assertTrue(urlValidator.isValid(valid[i]));
+	   }
    }
    
    public void testYourSecondPartition(){
 		 //You can use this function to implement your Second Partition testing	   
-
+	   // UrlValidator urlValidator = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+	   UrlValidator urlValidator = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+	   String []invalid = { "http://www.cat.com/path/path2?a=bee", "http://www.tiger.com/tigerlives/tigerhunts/", 
+			   "http://www.cat.com/path/",  "http://www.cat.com:80", " ", " efsfs"
+	   };
+	   boolean result; 
+	   for (int i =0; i< invalid.length; i++) 
+	   {
+		   result = urlValidator.isValid(invalid[i]);
+		   System.out.println("Invalid" + " " +invalid[i] + " " + result);
+		   //assertTrue(urlValidator.isValid(valid[i]));
+	   }
    }
 
    /* Note: We were confused by this part of the assignment. The instructions say that our test should be "very similar"
